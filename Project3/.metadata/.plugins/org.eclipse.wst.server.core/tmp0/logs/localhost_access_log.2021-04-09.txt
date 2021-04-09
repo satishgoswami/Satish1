@@ -1,0 +1,16 @@
+127.0.0.1 - - [09/Apr/2021:08:05:39 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:05:45 +0530] "GET /ORSproject3/ HTTP/1.1" 200 2644
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:05:45 +0530] "GET /ORSproject3/css/bootstrap.css HTTP/1.1" 404 1009
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:05:45 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:05:48 +0530] "GET /ORSproject3/WelcomeCtl HTTP/1.1" 200 4429
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:05:48 +0530] "GET /resources/demos/style.css HTTP/1.1" 404 1001
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:05:48 +0530] "GET /resources/demos/style.css HTTP/1.1" 404 1001
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:05:53 +0530] "GET /ORSproject3/LoginCtl HTTP/1.1" 200 7392
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:05:53 +0530] "GET /resources/demos/style.css HTTP/1.1" 404 1001
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:06:07 +0530] "POST /ORSproject3/LoginCtl HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:06:07 +0530] "GET /ORSproject3/WelcomeCtl HTTP/1.1" 200 10894
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:06:07 +0530] "GET /resources/demos/style.css HTTP/1.1" 404 1001
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:06:12 +0530] "GET /ORSproject3/ctl/MarksheetMeritListCtl HTTP/1.1" 200 20023
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:06:13 +0530] "GET /resources/demos/style.css HTTP/1.1" 404 1001
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:06:13 +0530] "GET /ORS_3/img/nasa1.jpg HTTP/1.1" 404 989
+0:0:0:0:0:0:0:1 - - [09/Apr/2021:08:06:19 +0530] "GET /ORSproject3/ctl/JasperCtl HTTP/1.1" 200 -

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 3, 2020 4:01:26 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+     <class name="in.co.rays.ORSproject3.dto.UserDTO" table="ST_USER" >
+        <id name="id" type="java.lang.Long">
+			<column name="ID" />
+			<generator class="increment" />
+		</id> <property name="firstName" type="java.lang.String">
+            <column name="FIRSTNAME" />
+        </property>
+        <property name="lastName" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        <property name="login" type="java.lang.String">
+            <column name="LOGIN" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="gender" type="java.lang.String">
+            <column name="GENDER" />
+        </property>
+        <property name="dob" type="java.util.Date">
+            <column name="DOB" />
+        </property>
+        <property name="roleId" type="java.lang.Long">
+            <column name="ROLEID" />
+        </property>
+        <property name="roleName" type="java.lang.String">
+            <column name="ROLENAME" />
+        </property>
+      <property name="mobileNo" type="java.lang.String">
+            <column name="MOBILENO" />
+        </property>
+        <property name="createdBy" type="java.lang.String">
+			<column name="CREATED_BY" />
+		</property>
+		<property name="modifiedBy" type="java.lang.String">
+			<column name="MODIFIED_BY" />
+		</property>
+		<property name="createdDatetime" type="timestamp">
+			<column name="CREATED_DATETIME" />
+		</property>
+		<property name="modifiedDatetime" type="timestamp">
+			<column name="MODIFIED_DATETIME" />
+		</property>
+     
+    </class>
+</hibernate-mapping>
